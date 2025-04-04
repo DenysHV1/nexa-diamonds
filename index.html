@@ -2,83 +2,376 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/nexa-diamonds/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <meta
+      name="description"
+      content="Hexa Diamond is a captivating puzzle game where you fit hexagonal gems, clear rows, and challenge your strategic skills. Play now for endless fun!"
+    />
+    <meta
+      name="keywords"
+      content="Hexa Diamond, jewel puzzle, hexagonal match, casual game, logic puzzle, mobile puzzle, strategy game, relaxing gameplay"
+    />
+    <meta name="author" content="Glow Bliss Way" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://glowblissway.com" />
+    <link rel="icon" type="image/svg+xml" href="/nexa-diamonds/favicon.png" />
+    <title>Hexa Diamonds</title>
     
-    <script type="module" crossorigin src="/nexa-diamonds/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/nexa-diamonds/assets/index-95868f65.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/nexa-diamonds/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/nexa-diamonds/assets/vendor-ba5b46f9.js">
+    <link rel="stylesheet" href="/nexa-diamonds/assets/vendor-db544325.css">
+    <link rel="stylesheet" href="/nexa-diamonds/assets/styles-02722292.css">
   </head>
   <body>
     <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+  <div class="header_container container">
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+    <nav class="header-nav-pc">
+      <ul class="header-nav-pc-list">
+        <li class="header-nav-pc-item"><a href="./index.html">Home</a></li>
+        <li class="header-nav-pc-item">
+          <a href="#about-game">About the Game</a>
+        </li>
+        <li class="header-nav-pc-item"><a href="#uniqueness">Our Uniqueness</a></li>
+        <li class="header-nav-pc-item">
+          <a href="#features">Game Features</a>
+        </li>
+        <li class="header-nav-pc-item">
+          <a href="#reviews">User Reviews</a>
+        </li>
+        <li class="header-nav-pc-item"><a href="#how-play">How to Play</a></li>
+        <li class="header-nav-pc-item"><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <nav class="header-nav-mobile">
+      <button type="button" class="header-nav-mobile-button-close">
+        <img src="../img/close-menu.png" alt="menu" />
+      </button>
+      <ul class="header-nav-mobile-list">
+        <li class="header-nav-mobile-item"><a href="./index.html">Home</a></li>
+        <li class="header-nav-mobile-item">
+          <a href="#about-game">About the Game</a>
+        </li>
+        <li class="header-nav-mobile-item"><a href="#uniqueness">Our Uniqueness</a></li>
+        <li class="header-nav-mobile-item">
+          <a href="#features">Game Features</a>
+        </li>
+        <li class="header-nav-mobile-item">
+          <a href="#reviews">User Reviews</a>
+        </li>
+        <li class="header-nav-mobile-item"><a href="#how-play">How to Play</a></li>
+        <li class="header-nav-mobile-item"><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <button type="button" class="header-nav-mobile-button">
+      <img src="../img/burger-menu.png" alt="menu" />
+    </button>
+
+  </div>
 </header>
 
 
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/nexa-diamonds/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
+    <section class="hero">
+  <div class="hero_container container">
+    <div class="hero-inner-left">
       <img
-        class="pic"
-        src="/nexa-diamonds/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
+        class="hero-logo"
+        src="/nexa-diamonds/assets/logo-diamond-64a15b96.png"
+        alt="logo-diamond"
+      />
+      <button class="hero-button">
+        <img src="/nexa-diamonds/assets/google-play-btn-61b95402.png" alt="google-play" />
+      </button>
+    </div>
+    <div class="hero-inner-right">
+      <div class="diamonds-group">
+        <img
+          class="diamonds-yellow"
+          src="/nexa-diamonds/assets/yellow-diamond-e0d5b8ea.png"
+          alt="yellow-diamond"
+        />
+        <img
+          class="diamonds-red"
+          src="/nexa-diamonds/assets/red-diamond-79db5054.png"
+          alt="red-diamond"
+        />
+        <img
+          class="diamonds-blue"
+          src="/nexa-diamonds/assets/blue-diamond-45dc0f40.png"
+          alt="blue-diamond"
+        />
+      </div>
+      <img
+        class="hero-mobile-cat"
+        src="/nexa-diamonds/assets/hero-mobile-cat-ad76c040.png"
+        alt="hero-image"
       />
     </div>
   </div>
 </section>
 
+    <section class="about-game">
+  <div class="about-game_container container">
+    <h2 class="title-h2">About the Game</h2>
+    <div class="about-game_content">
+      <div class="about-game_text-container">
+        <p class="about-game_text">
+          <span>Hexa Diamonds</span> is a visually stunning and immersive puzzle
+          game designed to challenge your mind while providing a relaxing
+          experience. Your goal is to arrange dazzling, multi-colored diamond
+          pieces within a hexagonal grid, strategically placing them to complete
+          patterns and maximize points. With no time limits and endless
+          possibilities, Hexa Diamonds allows you to play at your own pace,
+          making it the perfect game to unwind after a long day or sharpen your
+          problem-solving skills. The intuitive mechanics ensure that both
+          casual players and puzzle enthusiasts will find the game enjoyable and
+          rewarding.
+        </p>
+        <p class="about-game_text">
+          As you progress, you'll encounter increasingly complex puzzles, unlock
+          unique diamond shapes, and discover mesmerizing visual effects that
+          make every move satisfying. Whether you're aiming for high scores,
+          mastering intricate strategies, or simply enjoying the stunning
+          graphics, Hexa Diamonds offers an engaging and stress-free gaming
+          experience for all ages. Are you ready to master the art of hexagonal
+          brilliance?
+        </p>
+        <img
+          class="about-second-img"
+          src="../img/about/about-second-img.png"
+          alt="about-game-img"
+        />
+      </div>
+      <div class="about-game-img-container">
+        <picture>
+          <source
+            srcset="../img/about/about-mobile.jpg"
+            media="(max-width: 1440px)"
+          />
+          <img src="../img/about/about-pc.jpg" alt="about-game-img" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="unique">
+  <div class="unique_container container">
+    <h2 class="title-h2">Our Uniqueness</h2>
+    <div class="swiper swiper-uniqueness">
+      <div class="swiper-wrapper swiper-wrapper-style">
+        <div class="swiper-slide swiper-slide-style">
+          <div class="uniqueness-img-box">
+            <img src="/nexa-diamonds/assets/uniqueness-1-d75abb22.jpg" alt="uniqueness-1" />
+          </div>
+          <p class="unique-text">
+            <span>Hexagonal Grid Mechanics:</span> A fresh twist on classic
+            puzzle games.
+          </p>
+        </div>
+        <div class="swiper-slide swiper-slide-style">
+          <div class="uniqueness-img-box">
+            <img src="/nexa-diamonds/assets/uniqueness-2-5381efa7.jpg" alt="uniqueness-2" />
+          </div>
+          <p class="unique-text">
+            <span>Satisfying Visual Effects:</span> Each move feels rewarding
+            with smooth animations.
+          </p>
+        </div>
+        <div class="swiper-slide swiper-slide-style">
+          <div class="uniqueness-img-box">
+            <img src="/nexa-diamonds/assets/uniqueness-3-4c0a7b27.jpg" alt="uniqueness-3" />
+          </div>
+          <p class="unique-text">
+            <span>Dynamic Challenges:</span> Increasing difficulty levels to
+            keep you engaged.
+          </p>
+        </div>
+        <div class="swiper-slide swiper-slide-style">
+          <div class="uniqueness-img-box">
+            <img src="/nexa-diamonds/assets/uniqueness-4-10526e3b.jpg" alt="uniqueness-4" />
+          </div>
+          <p class="unique-text">
+            <span>Play Anytime, Anywhere:</span> Enjoy offline gameplay on the
+            go.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="features">
+  <div class="features_container container">
+
+  </div>
+</section>
+    <section class="reviews">
+  <div class="reviews_container container">
+    <h2 class="title-h2">User Reviews</h2>
+    <div class="swiper swiper-reviews">
+      <div class="swiper-wrapper swiper-wrapper-reviews">
+
+        <div class="swiper-slide swiper-slide-review">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFKSURBVHgB7ZfvTcMwEMWfrX6nI7gTkAkgbJJOQJkAMgHdgDABbECZANjAI3QBWp5DVaVWGv+R1U/3pFMc++6XSE9OzsCE9h+mYhgUlDCnmRrTq2+ML0LmKCVhTjLPGsKihhfDcMUrFJAww8zzO0TjcTC+RwkJM8hU/sRhOzUsevaWVtjhVd3ZLRIlzHim6n8yqnfPFVYcm8Azttjjm/HD8ZpAO/ISwsxkzuC+a4oOxmvO/LqPHTa8tyM5wsxkarq84WSLdLWsfR9bEGY+8/gP6bsAjZeoUoWlurFdKE2Y6cxjl0V3Om6ZZUTxQ8wLCTOP6be9FiH9RuQIM5vpG1IhLIM0CTOB6RtSe/euR7YnMwrXSFMtzHim9havBoUtv4ELdWsX+O8a7CEnxnVhZjJnHsAdTj5ZuB6eIAl5YtfQ0b4GqRJmWabosvoDcvtOo7sMJdcAAAAASUVORK5CYII=" alt="rating-5" class="review-rating" />
+          <p>
+            "A refreshing puzzle game! The hexagonal style is unique and fun."
+          </p>
+          <div class="review-author">
+            <div class="review-author-img">
+              <img src="../img/reviews/person-1.jpg" alt="avatar-1" />
+            </div>
+            <p>John Doe.:</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide swiper-slide-review">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFKSURBVHgB7ZfvTcMwEMWfrX6nI7gTkAkgbJJOQJkAMgHdgDABbECZANjAI3QBWp5DVaVWGv+R1U/3pFMc++6XSE9OzsCE9h+mYhgUlDCnmRrTq2+ML0LmKCVhTjLPGsKihhfDcMUrFJAww8zzO0TjcTC+RwkJM8hU/sRhOzUsevaWVtjhVd3ZLRIlzHim6n8yqnfPFVYcm8Azttjjm/HD8ZpAO/ISwsxkzuC+a4oOxmvO/LqPHTa8tyM5wsxkarq84WSLdLWsfR9bEGY+8/gP6bsAjZeoUoWlurFdKE2Y6cxjl0V3Om6ZZUTxQ8wLCTOP6be9FiH9RuQIM5vpG1IhLIM0CTOB6RtSe/euR7YnMwrXSFMtzHim9havBoUtv4ELdWsX+O8a7CEnxnVhZjJnHsAdTj5ZuB6eIAl5YtfQ0b4GqRJmWabosvoDcvtOo7sMJdcAAAAASUVORK5CYII=" alt="rating-5" class="review-rating" />
+          <p>
+            ""Love the relaxing vibe and beautiful design. Highly recommend!""
+          </p>
+          <div class="review-author">
+            <div class="review-author-img">
+              <img src="/nexa-diamonds/assets/person-2-d79440d7.jpg" alt="avatar-2" />
+            </div>
+            <p>Jane Smith.:</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide swiper-slide-review">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKWSURBVHgB7VdJjuIwFP0OIDEsmiOYE3RO0B02IHbNCTqcoKkTACco+gQNJ0jvELAATlDUCTpHYMEkMaTfN0MFV4VBYlGS+ZJlJ/5++fHzH0x0RoKBtNEk3VFMxuz1enan05HndCw6P+uhvcCwLN1LDMYMgsCLxWIvnudloz8btXggXXQSjRdX6R4GGYwJz3CFEJIxk8lkJGa0h1hUC41/0T3EYEzLsmrwkBFIGcJLIjGF/mLvoi4MedamqrSltsj7E7pRTMbk8JRKpVwQ8rzZbPLxeJxD12C73VYXi0W7XC6fYAqVuIQ6EWyMjbG88I0JBTRGe8W4CSN9ev9jxmJy0oYHsDdk4Q027UIfkzAqFosOj/v9/gDPzhGTaAyCXvGuGVcLBE7F9ZKFvqPaloZ49j/QMRYTHiCxsZwvmIQ2POM3+sl8Pv970Fmv15VEImHDYxRh0P0JPQd6QxWygpGso6vRbdIQ3/161KTJmN1ut45NZszxbDbL62HpIBzO0un0gD0J5DRKpVL9mENUZWHRH7pGBFXEN791Sc1kTK6qELoY80NSNDIqIENhHqssxMMW3LBy6UMw6Okag0zH5A3mjcbQzmQyP/R5fsdkIHc8Hchg0cteny7J5gqdB6YS5BOlD2J8fQ5k+OH+uEbTs+mySLpNjMXkpI1kTcvlcowQ5nD1tX9fAVnj1WrFiV+G1+iEONrzZN/eFgn6SreJYyomTr/DPcKTx/h4nnDFBWL+gYwW44OwE8zTkCXoS8iYBuJqDtVETo0PLi2uOkkPTFK3c4XJuQJENKbTaa5QKOR4TLsDsLv/hCSuGcUXnhGMaYZvpVzioRJpgT6XbhWDMbHxfNkbocpqhqssXBDrCGEtEObSQz63/Aeu3dw96o6IbQAAAABJRU5ErkJggg==" alt="rating-4" class="review-rating" />
+          <p>""Great mechanics, no annoying ads, and fantastic visuals!""</p>
+          <div class="review-author">
+            <div class="review-author-img">
+              <img src="/nexa-diamonds/assets/person-3-2d85cb79.jpg" alt="avatar-3" />
+            </div>
+            <p>John Doe.:</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide swiper-slide-review">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFKSURBVHgB7ZfvTcMwEMWfrX6nI7gTkAkgbJJOQJkAMgHdgDABbECZANjAI3QBWp5DVaVWGv+R1U/3pFMc++6XSE9OzsCE9h+mYhgUlDCnmRrTq2+ML0LmKCVhTjLPGsKihhfDcMUrFJAww8zzO0TjcTC+RwkJM8hU/sRhOzUsevaWVtjhVd3ZLRIlzHim6n8yqnfPFVYcm8Azttjjm/HD8ZpAO/ISwsxkzuC+a4oOxmvO/LqPHTa8tyM5wsxkarq84WSLdLWsfR9bEGY+8/gP6bsAjZeoUoWlurFdKE2Y6cxjl0V3Om6ZZUTxQ8wLCTOP6be9FiH9RuQIM5vpG1IhLIM0CTOB6RtSe/euR7YnMwrXSFMtzHim9havBoUtv4ELdWsX+O8a7CEnxnVhZjJnHsAdTj5ZuB6eIAl5YtfQ0b4GqRJmWabosvoDcvtOo7sMJdcAAAAASUVORK5CYII=" alt="rating-5" class="review-rating" />
+          <p>""It’s my go-to game during breaks. Simple, yet addictive!""</p>
+          <div class="review-author">
+            <div class="review-author-img">
+              <img src="/nexa-diamonds/assets/person-4-fd965d1a.jpg" alt="avatar-4" />
+            </div>
+            <p>Jane Smith.:</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide swiper-slide-review">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFKSURBVHgB7ZfvTcMwEMWfrX6nI7gTkAkgbJJOQJkAMgHdgDABbECZANjAI3QBWp5DVaVWGv+R1U/3pFMc++6XSE9OzsCE9h+mYhgUlDCnmRrTq2+ML0LmKCVhTjLPGsKihhfDcMUrFJAww8zzO0TjcTC+RwkJM8hU/sRhOzUsevaWVtjhVd3ZLRIlzHim6n8yqnfPFVYcm8Azttjjm/HD8ZpAO/ISwsxkzuC+a4oOxmvO/LqPHTa8tyM5wsxkarq84WSLdLWsfR9bEGY+8/gP6bsAjZeoUoWlurFdKE2Y6cxjl0V3Om6ZZUTxQ8wLCTOP6be9FiH9RuQIM5vpG1IhLIM0CTOB6RtSe/euR7YnMwrXSFMtzHim9havBoUtv4ELdWsX+O8a7CEnxnVhZjJnHsAdTj5ZuB6eIAl5YtfQ0b4GqRJmWabosvoDcvtOo7sMJdcAAAAASUVORK5CYII=" alt="rating-5" class="review-rating" />
+          <p>""It’s both challenging and calming—a perfect balance.""</p>
+          <div class="review-author">
+            <div class="review-author-img">
+              <img src="/nexa-diamonds/assets/person-5-08e90e0a.jpg" alt="avatar-5" />
+            </div>
+            <p>John Doe.:</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide swiper-slide-review">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFKSURBVHgB7ZfvTcMwEMWfrX6nI7gTkAkgbJJOQJkAMgHdgDABbECZANjAI3QBWp5DVaVWGv+R1U/3pFMc++6XSE9OzsCE9h+mYhgUlDCnmRrTq2+ML0LmKCVhTjLPGsKihhfDcMUrFJAww8zzO0TjcTC+RwkJM8hU/sRhOzUsevaWVtjhVd3ZLRIlzHim6n8yqnfPFVYcm8Azttjjm/HD8ZpAO/ISwsxkzuC+a4oOxmvO/LqPHTa8tyM5wsxkarq84WSLdLWsfR9bEGY+8/gP6bsAjZeoUoWlurFdKE2Y6cxjl0V3Om6ZZUTxQ8wLCTOP6be9FiH9RuQIM5vpG1IhLIM0CTOB6RtSe/euR7YnMwrXSFMtzHim9havBoUtv4ELdWsX+O8a7CEnxnVhZjJnHsAdTj5ZuB6eIAl5YtfQ0b4GqRJmWabosvoDcvtOo7sMJdcAAAAASUVORK5CYII=" alt="rating-5" class="review-rating" />
+          <p>
+            ""A perfect mix of strategy and relaxation. Keeps me engaged for
+            hours!""
+          </p>
+          <div class="review-author">
+            <div class="review-author-img">
+              <img src="/nexa-diamonds/assets/person-6-22236362.jpg" alt="avatar-6" />
+            </div>
+            <p>Jane Smith.:</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="how-play">
+  <div class="how-play_container container">
+
+  </div>
+</section>
+    <section class="gallery">
+  <div class="gallery_container container">
+    <h2 class="title-h2">Gallery</h2>
+    <div class="swiper swiper-gallery">
+      <div class="swiper-wrapper swiper-wrapper-gallery">
+        <div class="swiper-slide swiper-slide-gallery">
+          <img
+            src="/nexa-diamonds/assets/gallery-1-1a549aae.jpg"
+            alt="gallery-1"
+            class="gallery-img"
+          />
+        </div>
+
+        <div class="swiper-slide swiper-slide-gallery">
+          <img
+            src="/nexa-diamonds/assets/gallery-2-2d33af2b.jpg"
+            alt="gallery-2"
+            class="gallery-img"
+          />
+        </div>
+
+        <div class="swiper-slide swiper-slide-gallery">
+          <img
+            src="/nexa-diamonds/assets/gallery-3-22f5766a.jpg"
+            alt="gallery-3"
+            class="gallery-img"
+          />
+        </div>
+
+        <div class="swiper-slide swiper-slide-gallery">
+          <img
+            src="/nexa-diamonds/assets/gallery-4-616cf2fe.jpg"
+            alt="gallery-4"
+            class="gallery-img"
+          />
+        </div>
+
+        <div class="swiper-slide swiper-slide-gallery">
+          <img
+            src="/nexa-diamonds/assets/gallery-5-ccaba513.jpg"
+            alt="gallery-5"
+            class="gallery-img"
+          />
+        </div>
+      </div>
+      <div class="swiper-button-prev">
+        <img
+          src="../img/gallery/gallery-left.png"
+          alt="arrow-left"
+          class="swiper-button-prev-img"
+        />
+      </div>
+      <div class="swiper-button-next">
+        <img
+          src="../img/gallery/gallery-right.png"
+          alt="arrow-right"
+          class="swiper-button-next-img"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <footer class="footer">
+  <div class="footer_container container">
+
+  </div>
+</footer>
 
     
   </body>
