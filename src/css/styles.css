@@ -1,0 +1,53 @@
+@import './reset.css';
+
+@import './header.css';
+@import './footer.css';
+@import './pages.css';
+
+@import './about-game.css';
+@import './uniqueness.css';
+@import './how-play.css';
+@import './features.css';
+@import './gallery.css';
+@import './hero.css';
+@import './reviews.css';
+
+
+
+
+
+
+
+:root {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fcefd1;
+
+  background-color: #5b2d90;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 375px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.title-h2 {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #ffd700;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
