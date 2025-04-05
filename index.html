@@ -17,28 +17,26 @@
     <link rel="icon" type="image/svg+xml" href="/nexa-diamonds/favicon.png" />
     <title>Hexa Diamonds</title>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <script type="module" crossorigin src="/nexa-diamonds/commonHelpers2.js"></script>
-    <link rel="modulepreload" crossorigin href="/nexa-diamonds/assets/vendor-ba5b46f9.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Chewy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/nexa-diamonds/assets/vendor-ba5b46f9.js"></script>
+    <script type="module" crossorigin src="/nexa-diamonds/assets/main-353a49e4.js"></script>
+    <link rel="stylesheet" href="/nexa-diamonds/assets/main-b442502a.css">
     <link rel="stylesheet" href="/nexa-diamonds/assets/vendor-db544325.css">
-    <link rel="stylesheet" href="/nexa-diamonds/assets/styles-02722292.css">
   </head>
   <body>
     <header class="header">
   <div class="header_container container">
-
     <nav class="header-nav-pc">
       <ul class="header-nav-pc-list">
         <li class="header-nav-pc-item"><a href="./index.html">Home</a></li>
         <li class="header-nav-pc-item">
           <a href="#about-game">About the Game</a>
         </li>
-        <li class="header-nav-pc-item"><a href="#uniqueness">Our Uniqueness</a></li>
+        <li class="header-nav-pc-item">
+          <a href="#uniqueness">Our Uniqueness</a>
+        </li>
         <li class="header-nav-pc-item">
           <a href="#features">Game Features</a>
         </li>
@@ -49,7 +47,6 @@
         <li class="header-nav-pc-item"><a href="#gallery">Gallery</a></li>
       </ul>
     </nav>
-
     <nav class="header-nav-mobile">
       <button type="button" class="header-nav-mobile-button-close">
         <img src="../img/close-menu.png" alt="menu" />
@@ -59,27 +56,30 @@
         <li class="header-nav-mobile-item">
           <a href="#about-game">About the Game</a>
         </li>
-        <li class="header-nav-mobile-item"><a href="#uniqueness">Our Uniqueness</a></li>
+        <li class="header-nav-mobile-item">
+          <a href="#uniqueness">Our Uniqueness</a>
+        </li>
         <li class="header-nav-mobile-item">
           <a href="#features">Game Features</a>
         </li>
         <li class="header-nav-mobile-item">
           <a href="#reviews">User Reviews</a>
         </li>
-        <li class="header-nav-mobile-item"><a href="#how-play">How to Play</a></li>
+        <li class="header-nav-mobile-item">
+          <a href="#how-play">How to Play</a>
+        </li>
         <li class="header-nav-mobile-item"><a href="#gallery">Gallery</a></li>
       </ul>
     </nav>
-
     <button type="button" class="header-nav-mobile-button">
       <img src="../img/burger-menu.png" alt="menu" />
     </button>
-
   </div>
 </header>
 
 
     <section class="hero">
+  <h2 class="visually-hidden">Hexa Diamonds</h2>
   <div class="hero_container container">
     <div class="hero-inner-left">
       <img
@@ -118,7 +118,7 @@
   </div>
 </section>
 
-    <section class="about-game">
+    <section class="about-game" id="about-game">
   <div class="about-game_container container">
     <h2 class="title-h2">About the Game</h2>
     <div class="about-game_content">
@@ -163,7 +163,7 @@
   </div>
 </section>
 
-    <section class="unique">
+    <section class="unique" id="uniqueness">
   <div class="unique_container container">
     <h2 class="title-h2">Our Uniqueness</h2>
     <div class="swiper swiper-uniqueness">
@@ -209,12 +209,63 @@
   </div>
 </section>
 
-    <section class="features">
+    <section class="features" id="features">
   <div class="features_container container">
-
+    <h2 class="title-h2">Game Features</h2>
+    <div class="features-content">
+      <ul class="feature-content-left">
+        <li class="feature-content-left-item">
+          <img src="/nexa-diamonds/assets/features-1-0b27fb81.png" alt="features diamond 1" />
+          <div class="features-text-content">
+            <h3 class="features-h3-title">Match & Clear</h3>
+            <p class="features-text">
+              Complete lines to remove them from the board
+            </p>
+          </div>
+        </li>
+        <li class="feature-content-left-item">
+          <img src="/nexa-diamonds/assets/features-2-5ff656cb.png" alt="features diamond 2" />
+          <div class="features-text-content">
+            <h3 class="features-h3-title">Multiple Game Modes</h3>
+            <p class="features-text">
+              Standard, time attack, and endless play.
+            </p>
+          </div>
+        </li>
+        <li class="feature-content-left-item">
+          <img src="/nexa-diamonds/assets/features-3-56f7a5bd.png" alt="features diamond 3" />
+          <div class="features-text-content">
+            <h3 class="features-h3-title">Daily Tasks & Rewards</h3>
+            <p class="features-text">Complete challenges to unlock bonuses.</p>
+          </div>
+        </li>
+        <li class="feature-content-left-item">
+          <img src="/nexa-diamonds/assets/features-4-2bd83d20.png" alt="features diamond 4" />
+          <div class="features-text-content">
+            <h3 class="features-h3-title">Power-Ups & Boosters</h3>
+            <p class="features-text">
+              Use special tools to keep the game going.
+            </p>
+          </div>
+        </li>
+        <li class="feature-content-left-item">
+          <img src="/nexa-diamonds/assets/features-5-b8ce2f95.png" alt="features diamond 5" />
+          <div class="features-text-content">
+            <h3 class="features-h3-title">Relaxing Soundtrack</h3>
+            <p class="features-text">
+              A calming musical backdrop for focused gameplay.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div class="feature-content-right">
+        <img src="/nexa-diamonds/assets/features-cat-d80baeb1.jpg" alt="features cat" />
+      </div>
+    </div>
   </div>
 </section>
-    <section class="reviews">
+
+    <section class="reviews" id="reviews">
   <div class="reviews_container container">
     <h2 class="title-h2">User Reviews</h2>
     <div class="swiper swiper-reviews">
@@ -298,19 +349,90 @@
   </div>
 </section>
 
-    <section class="how-play">
+    <section class="how-play" id="how-play">
   <div class="how-play_container container">
-
+    <h2 class="title-h2">How to play</h2>
+    <div class="how-play-content">
+      <div class="how-play-content-left">
+        <img src="/nexa-diamonds/assets/picture-left-c4e7a371.png" alt="picture left" />
+        <img
+          class="diamond-left-1"
+          src="data:image/png;base64,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"
+          alt="diamond 1"
+        />
+        <img
+          class="diamond-left-2"
+          src="/nexa-diamonds/assets/diamond-left-2-16af5c3e.png"
+          alt="diamond 2"
+        />
+        <img
+          class="diamond-left-3"
+          src="/nexa-diamonds/assets/diamond-left-3-a7861791.png"
+          alt="diamond 3"
+        />
+        <img
+          class="diamond-left-4"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA1CAYAAADs+NM3AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAArOSURBVHgB7VlrbBzVFf7uzOw89r3rtWM7cZzEDiQhCZBAUAkJoRSqtAFBSypeTSmE/ECqWpCQCoI2Ra3aqkKoVEGC0gJVUdWmgvIIEhAq0hBonjYhzovYju1dr73e9b53Z3cet2c2SetUVYs3cdpU+aR9aWfmznfPOd/57h3gHCGwaFEI/2dgJ19TAhHnBs44p0hwXMAFnL84VzXz7+DU0v/CfZwRHBLCqR/3bNyovvDqe/f8cVvvXJxHcAj8XZ5vvvvBzmdf73rmw4RZ6Clxvum9Qg51QsK5g0PCkWXb+fHE01tXtC2d/3jHla3XlxNc6NufA7dE3n0oJ0w43p7E9aeczMTeYneuXq3cceN9d11zy00P87A8Lztu45OtaV4ZrNiSKjNIVSRiaWXBgrXywYObDUwSU0XmtAa5atXa5lvu2PDQNWtWbbD9UiCWBnJHCjx1qMjHBw0mKZLgE0Sk4mO2kUpKWmtIw0H818mcRuLWL91/0de+vv7R69Ysu93QoBwbtlBJVWxjRGex3XkW7bWY2+eCzDgqJRHJeALV1DDCZdlDp2dPXu8zO4azReY0EuvWPrjsG+s2PLbii/NWWy5Ix1I2sinLDngYGzpSFj7emsNI3IYnIFGdcBg6UISFQmaYh7wCmmbM8767A5PGmZKZSILdf9v3Vj/wrfXfv3R521VO50iVOc9SJEQusNagIHyyK4ft7xQRHyYX3eACDA7LplMlhlIhD708gqqloifR60cdOFMyfBVWSYvvvuErG9bf+9iCq5sXge4xXzR5sWBx3YSgKAJTmYk9f9Gx9a0CCkUJIT8DNzlsm+ZC4BAsGXqVGBp5BIMRxIb1IOpA3WQ6OzuVtau+fef69esembPUP9emm8pmq9yo2qDJZhZFQ1HpZk0TH/y5hJ07LPouIxIgIpzTCyc+LedqIqrlUUiiSb+r8LoUL+pAXWR+/thLT6z96tpvtizUZjgkMhmdm1XnH8acfLNoxgNBCamkju3vlrBnJ92gV4HPKWtOBBkRtp3I2DCNE5+w01BlN8qlEtra53iwvTbUZxEAxwpZdZH58srvzL/7rnWPh+eRvI7r3D4hoEykcZ0rCoyhISwhHivjrT9lcegARyAsQNNMyKIEWWGQNQbB5ZwkEhEBmXEdhV4dihyAx+0Dd9nnpmbSsWDquR/EcfujojVrYZOYSVRQmzxKGUFgCDfJ6N6TISIFHOmx0DJDhUQ9hFGKMcWGv8VG6yyGUCNJMhHKJC30Hykg2U/KxjRQeuKjPft9qAOTJsMrWbN7VxWZHw+wh34oo2FGAFmaWc3rgkpptO3tJF7+ZRK5vIxQRIOellEYspCLjSCfThPtKlwqDewiJTNsiIqIuZe7oJkeWDKFWZLQEGgJoA5MlgzlcLQcamIksWm6oY+wcdONtfTRfCJ++4t+vPpCFtm8iOkXqyDeyI2MojiahlHSIWkuKJoEkQIpUp3oRQMtHSLapitIDflg2GVYpg2v0uj5x3j/EVa9ZJD191jZwnEzHHGLb7zSh9vuG4RmTEPGGMOWF0aRHNAQaZNQjOZgjedhZHUwSj+XKtGd2bAqVPwkFiZ9z44WMf0mD6Y1eJEf0UmlSd3oWNtMaqgDkyZz8OBB45qrvXYxNSaa1Ln3vWNBHKM/vCauWNSJN3tGYSYKECr5WlOUZfmE3nBHxJzaIjLshCUWJBtzSLjCHi+aIgbGUhYTnfoqlz2oA3WkGexibqhUreaDoYCCvqNj6B54FkOZnVh+1fVYsHIZrIFmpFJ+SG6SXGbVeopzJjuZEZwEvEodtaVdwXSquUoCaAhRmukGSiTNITXiRh2ohwxcLjPLLTPo9Sm8N7mNbd/3O7IhwEgiio65H2Bu50p0tH8B6QMhmBQgWy6Bk5IxwaRwUGMUbJTKHJ2XBeHTPNCJpIt4BxVS5BIpoqflnESmBtsuJEWbtXuCMnLWAGWOhObQNMp1G30H4uhTXsSixV1oX7wCHcYNyH4agk6FYisFSjkGk1LN5bYwPSxi+K1hSB1NMMo0G2WwgOBDpTzinjh5U0oGrBTXmAqvT0BST8EtBqksZKoPkljZTw7AxOGuARxWj+LShftw8RXXYo78OVRHQijn8yiWTXgWq5imWeh7sQ/hVVW425tQzRrQOCmerconR5rUhmFdZCxeiPrkMHw+keuxAvNRekiCRFLtPTGVVCea6qbjbBzY9ymGGgdxycL9WLLk81igXop0r4WmlQoCgwn05atIdQ3BKFQh+igtKxWoXHGhDtRFpiLm+5s9PkhenVslCx7yhSRCFJkQmUyqCWfpTv6L08ujkAE2Gbp2HMbYWAIPfNfCvRtvxUh/BmNvuKGSCNvlMkr9Q1CaDahqIxr8kXMizbWwF4xkfyQchu6LcxfZFFmhsQXyX3KE1LjkdJMaEZBqOV5NIA/m9fsxnhjH7lfIBWzpR/eW41i+ZhbmrmhH/FAviqVxGKkKeMSFbNlUJo43VWRqqPJ8zOemtPZazGt5IEt+Mo0OqSaUTWqWNTJmjRAjV22RgtGCGUsvuhZmsgEv92zB8XQCu19rw+WzOnBxZytayZclD8eYYUfJt3WcisyUCkBtpjouaUvOaGpBr7ePNdkNRMIPUSJv6GpAgUkUHbL2RMYWiQJps8flRmNgJooJA7uOvo0iNVS3FsaQnkf82CD6Fs/GdSuasfS2ZVDiVaifkjfaVhtvUltN9WyLsuWXXW9c0rrskaw0wIWuEgvIXvjUJkhk4UWRFv2Km/yiSt2VGiB3Uy9pwXBqHD29e8nG6HBToVD2kUoL9MkwPJjB4QFaMk/X7Pl3LsKCFTNtT0T46fvvvz/1aVY5HC+rS9ymNs7ENhaBKZI58TQiR2sRVyWLTDaKSmYYERIEXeU4NtqFaPwYkfCBSUSANl4o+6ieTFpdCjwU1mxWUYTu31hC+kOdt3Z6dm98duOkouKgnqdYtZ3GHU+XyrHoe4rwhxKrRASUNTdGsnFkUsepuxeghZoxLmUwkOtGrhCntYu7NhxZSUoHgYiInAm0DjBcQqN/NmS3vwgVm4/mjz65p/fVA6gD9USmNgG6aOZ8zNdUkQyezMVYdixLOyzj8LoDcDfOwKgVxVCqm9b0NkJa64lioyWzQObfiYnCfCygNrOKZkXbr5zxVHf2r7/aunVzFmeAujc0yi49Luf0plQ8irI3S2pmU39ogSOq0XIfkqVB+MUApZXoxMKhQf5SFCTmFlzUe6qCub3fOPwTPRp/d/PgXmPCRNX9mLDuyIxU04k5tFcsktP1uFUoXh9yriJG9X5kC7Qr6Qo6JMjvi8zFvcwjB1leNtNSWfp1Th/e9PvR5/snXO/UpvoZPe+sh0xtwFQ5Hl1suKEJKg94NJZTikjpQ6gYed7kncZlSxY01kD+2M2tacKu3fGdP0uE+17bu/e0KJyKxKSL/WyRqSGtx0fc1dkI+gIoqAVkK3FbrVhstjiTqUqE5bmYP4aBF/eX9z390Z7Xj9VOitXeJ0bhrD55rptMKh+LBkNXIObptcWqJcxEp1ANqvyQGd3d5TvyVIqbr72597nSycPPehT+FepOs2KifzzCmsnGL5C6zaPJHl/fSx/r+za9c2Rz/4RjpywKZws1AZh/+dXtT978/DMPr/nREtpmZf/0/2mP+s43nHpifN4ScOAQOK+jcAEXcAEXcAFTir8B9NbF7hw3hXoAAAAASUVORK5CYII="
+          alt="diamond 4"
+        />
+      </div>
+      <ul class="how-play-content-center">
+        <li class="how-play-content-center-item">
+          <h3>Drag & Place</h3>
+          <p>Position hexagonal diamond pieces on the board.</p>
+        </li>
+        <li class="how-play-content-center-item">
+          <h3>Form Complete Lines</h3>
+          <p>Arrange pieces strategically to clear space.</p>
+        </li>
+        <li class="how-play-content-center-item">
+          <h3>Use Boosters</h3>
+          <p>Activate special power-ups to break tough spots.</p>
+        </li>
+        <li class="how-play-content-center-item">
+          <h3>Compete & Improve</h3>
+          <p>Beat your best score and climb the ranks.</p>
+        </li>
+        <li class="how-play-content-center-item">
+          <h3>Enjoy the Challenge</h3>
+          <p>The game evolves with new difficulty levels!</p>
+        </li>
+      </ul>
+      <div class="how-play-content-right">
+        <img src="/nexa-diamonds/assets/cat-bc620f83.png" alt="cat" />
+        <img
+          class="diamond-right-1"
+          src="/nexa-diamonds/assets/diamond-right-1-db023bcf.png"
+          alt="diamond 1"
+        />
+        <img
+          class="diamond-right-2"
+          src="/nexa-diamonds/assets/diamond-right-2-a873b844.png"
+          alt="diamond 2"
+        />
+        <img
+          class="diamond-right-3"
+          src="/nexa-diamonds/assets/diamond-right-3-959e5fdc.png"
+          alt="diamond 3"
+        />
+        <img
+          class="diamond-right-4"
+          src="/nexa-diamonds/assets/diamond-right-4-6bf973e9.png"
+          alt="diamond 4"
+        />
+      </div>
+    </div>
   </div>
 </section>
-    <section class="gallery">
+
+    <section class="gallery" id="gallery">
   <div class="gallery_container container">
     <h2 class="title-h2">Gallery</h2>
     <div class="swiper swiper-gallery">
       <div class="swiper-wrapper swiper-wrapper-gallery">
         <div class="swiper-slide swiper-slide-gallery">
           <img
-            src="/nexa-diamonds/assets/gallery-1-1a549aae.jpg"
+            src="/nexa-diamonds/assets/gallery-1-6628640a.jpg"
             alt="gallery-1"
             class="gallery-img"
           />
@@ -318,7 +440,7 @@
 
         <div class="swiper-slide swiper-slide-gallery">
           <img
-            src="/nexa-diamonds/assets/gallery-2-2d33af2b.jpg"
+            src="/nexa-diamonds/assets/gallery-2-eddf0fd6.jpg"
             alt="gallery-2"
             class="gallery-img"
           />
@@ -326,7 +448,7 @@
 
         <div class="swiper-slide swiper-slide-gallery">
           <img
-            src="/nexa-diamonds/assets/gallery-3-22f5766a.jpg"
+            src="/nexa-diamonds/assets/gallery-3-24dd7f33.jpg"
             alt="gallery-3"
             class="gallery-img"
           />
@@ -334,7 +456,7 @@
 
         <div class="swiper-slide swiper-slide-gallery">
           <img
-            src="/nexa-diamonds/assets/gallery-4-616cf2fe.jpg"
+            src="/nexa-diamonds/assets/gallery-4-99726dbd.jpg"
             alt="gallery-4"
             class="gallery-img"
           />
@@ -342,7 +464,7 @@
 
         <div class="swiper-slide swiper-slide-gallery">
           <img
-            src="/nexa-diamonds/assets/gallery-5-ccaba513.jpg"
+            src="/nexa-diamonds/assets/gallery-5-e2432060.jpg"
             alt="gallery-5"
             class="gallery-img"
           />
@@ -369,9 +491,32 @@
 
     <footer class="footer">
   <div class="footer_container container">
-
+    <ul class="footer-links-list">
+      <li class="footer-links-list-item">
+        <a href="./privacy-policy.html">Privacy policy</a>
+      </li>
+      <li class="footer-links-list-item">
+        <a href="./terms-and-conditions.html">Terms and Conditions</a>
+      </li>
+      <li class="footer-links-list-item">
+        <a href="./cookies-policy.html">Cookies Policy</a>
+      </li>
+    </ul>
+    <p class="footer-text">© 2025 glowblissway.com. All rights reserved</p>
   </div>
 </footer>
+
+    <div class="cookies-section">
+  <div class="cookies-container container">
+    <p class="cookies-text">We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies</p>
+    <div class="cookies-buttons">
+      <button class="cookies-button cookies-accept-js">Accept Cookies</button>
+      <button class="cookies-button cookies-decline-js">Decline Cookies</button>
+    </div>
+  </div>
+</div>
+
+
 
     
   </body>
