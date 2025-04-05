@@ -54,6 +54,13 @@
 
 .hero-button {
   margin-bottom: 28px;
+  transition: transform 300ms ease;
+}
+
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+  transform: scale(1.05);
 }
 
 .hero-logo {
