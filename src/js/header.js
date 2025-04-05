@@ -20,7 +20,7 @@ const mobileMenu = () => {
     });
   });
 
-  window.addEventListener('scroll', function () {
+  window.addEventListener('scroll', () => {
     header.classList.toggle('scroll', window.scrollY > 0);
   });
 };

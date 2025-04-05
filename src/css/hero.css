@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../img/hero/hero-mobile-bg.png);
+  background-image: url(../img/hero/hero-mobile-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
   width: 100%;
   margin-bottom: 80px;
   @media (min-width: 1440px) {
-    background-image: url(../img/hero/hero-img.png);
+    background-image: url(../img/hero/hero-img.jpg);
     margin-bottom: 140px;
   }
 }

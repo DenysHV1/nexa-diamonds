@@ -1,5 +1,6 @@
-.about-game{
+.about-game {
   margin-bottom: 80px;
+  scroll-margin-top: 100px;
   @media screen and (min-width: 1440px) {
     margin-bottom: 161px;
   }
@@ -46,7 +47,7 @@
   font-weight: 700;
 }
 
-.about-game-img-container{
+.about-game-img-container {
   width: 375px;
   overflow: hidden;
   border-radius: 16px;
@@ -57,17 +58,17 @@
   }
 }
 
-.about-game-img-container > picture{
+.about-game-img-container > picture {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.about-game_text-container{
+.about-game_text-container {
   position: relative;
 }
 
-.about-second-img{
+.about-second-img {
   display: none;
   width: 239px;
   height: 210px;

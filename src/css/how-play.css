@@ -1,0 +1,151 @@
+.how-play {
+  margin-bottom: 80px;
+  scroll-margin-top: 100px;
+  @media (min-width: 1440px) {
+    margin-bottom: 140px;
+  }
+}
+
+.how-play_container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  @media (min-width: 1440px) {
+    padding: 0 80px;
+    gap: 36px;
+  }
+}
+
+.how-play-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  @media (min-width: 1440px) {
+    flex-direction: row;
+    gap: 116px;
+  }
+}
+
+.how-play-content-left {
+  position: relative;
+  width: 325px;
+  margin-bottom: 22px;
+  @media (min-width: 1440px) {
+    margin-bottom: 0;
+  }
+}
+
+.diamond-left-1 {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  display: none;
+  @media (min-width: 1440px) {
+    display: block;
+  }
+}
+
+.diamond-left-2 {
+  position: absolute;
+  top: -113px;
+  left: 305px;
+  display: none;
+  @media (min-width: 1440px) {
+    display: block;
+  }
+}
+
+.diamond-left-3 {
+  position: absolute;
+  top: 278px;
+  left: 343px;
+  display: none;
+  @media (min-width: 1440px) {
+    display: block;
+  }
+}
+
+.diamond-left-4 {
+  position: absolute;
+  top: 352px;
+  left: 406px;
+  display: none;
+  @media (min-width: 1440px) {
+    display: block;
+  }
+}
+
+.how-play-content-center {
+  max-width: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  @media (min-width: 1440px) {
+    max-width: 398px;
+    gap: 32px;
+  }
+}
+
+.how-play-content-center-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.how-play-content-center-item > h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffd700;
+}
+
+.how-play-content-center-item > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+}
+
+.how-play-content-right {
+  position: relative;
+  display: none;
+  @media (min-width: 1440px) {
+    display: flex;
+    width: 325px;
+  }
+}
+
+.diamond-right-1 {
+  position: absolute;
+  top: 452px;
+  right: 303px;
+}
+
+.diamond-right-2 {
+  position: absolute;
+  top: 339px;
+  right: 305px;
+}
+
+.diamond-right-3 {
+  position: absolute;
+  top: 5px;
+  right: 317px;
+}
+
+.diamond-right-4 {
+  position: absolute;
+  top: 70px;
+  right: -38px;
+}

@@ -1,5 +1,6 @@
 .reviews {
   margin-bottom: 80px;
+  scroll-margin-top: 100px;
   @media screen and (min-width: 1440px) {
     margin-bottom: 140px;
   }
@@ -68,30 +69,29 @@
   margin-bottom: 18px;
 }
 
-.review-author{
+.review-author {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 24px;
 }
 
-.review-author-img{
+.review-author-img {
   overflow: hidden;
   border-radius: 50%;
   width: 72px;
   height: 72px;
 }
 
-.review-author-img > img{
+.review-author-img > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.review-author > p{
+.review-author > p {
   font-weight: 700;
-font-size: 20px;
-line-height: 1.5;
-color: #f8d909;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #f8d909;
 }
-

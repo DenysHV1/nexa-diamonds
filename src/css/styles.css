@@ -12,11 +12,7 @@
 @import './hero.css';
 @import './reviews.css';
 
-
-
-
-
-
+@import './cookies.css';
 
 :root {
   font-family: Poppins;
@@ -39,7 +35,7 @@
 }
 
 .title-h2 {
-  font-family: "Baloo 2", sans-serif;
+  font-family: 'Baloo 2', sans-serif;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -50,4 +46,17 @@
   .container {
     max-width: 1440px;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
